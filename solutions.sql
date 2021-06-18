@@ -1,0 +1,56 @@
+-- Activity 2:
+-- select * from actor
+-- limit 10;
+-- select * from address
+-- limit 10;
+-- select * from category
+-- limit 10;
+-- select * from city
+-- limit 10;
+-- select * from country
+-- limit 10;
+-- select * from customer
+-- limit 10;
+-- select * from film
+-- limit 10;
+-- select * from film_actor
+-- limit 10;
+-- select * from film_category
+-- limit 10;
+-- select * from film_text
+-- limit 10;
+-- select * from inventory
+-- limit 10;
+-- select * from language
+-- limit 10;
+-- select * from payment
+-- limit 10;
+-- select * from rental
+-- limit 10;
+-- select * from staff
+-- limit 10;
+-- select * from store
+-- limit 10;
+
+-- Activity 3:
+-- select title from film;
+
+-- Activity 4:
+-- 1st way: giving the alias to the table and extracting from table 'film'
+-- select distinct new_film.language_id
+-- from film as new_film;
+
+-- 2nd way: giving the alias to the column and extracting from table 'film'
+-- select distinct language_id as language
+-- from film;
+
+-- Activity 5:
+-- 5.1
+-- select count(store_id)
+-- from store;
+-- 5.2
+-- select count(staff_id)
+-- from staff;
+-- 5.3
+-- select first_name
+-- from staff;
