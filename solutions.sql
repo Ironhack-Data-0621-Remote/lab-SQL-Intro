@@ -1,3 +1,4 @@
+-- working with data sakila
 use sakila;
 show tables;
 select * from film;
